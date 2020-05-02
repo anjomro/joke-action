@@ -16,13 +16,13 @@ jobs:
     # Checks-out the repo, so your job can access it
     - uses: actions/checkout@v2
     - name: Use joke action
-        uses: ./ # Uses the joke action in the root directory
-        id: joke
-        with:
-          project_name: 'Joke Action'
-      - name: Save another joke
-        run: echo "The time was ${{ steps.joke.outputs.joke }}" > joke.txt
-      - name: Commit and Push new Joke
+      uses: ./ # Uses the joke action in the root directory
+      id: joke
+      with:
+        project_name: 'Joke Action'
+    - name: Save another joke
+      run: echo "The time was ${{ steps.joke.outputs.joke }}" > joke.txt
+    - name: Commit and Push new Joke
       uses: stefanzweifel/git-auto-commit-action@v4.1.2
       with:
         commit_message: Update Joke
