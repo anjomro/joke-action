@@ -5,10 +5,7 @@ WORKDIR /action-example/
 # Copies code files m your action repository to the filesystem path `/` of the container
 COPY entry.py entry.sh Pipfile Pipfile.lock /action-example/
 
-RUN pip install pipenv && \
-    cd /action-example/ && \
-    pipenv install && \
-    pipenv run pip list && \
-    chmod +x /action-example/entry.sh
+RUN pip install pipenv
+
 # Code file to execute when the docker container starts up (`entrypoi`)
 ENTRYPOINT ["/action-example/entry.sh"]
