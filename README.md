@@ -18,10 +18,10 @@ The Joke (multiline) from the action. Comes from https://github.com/wesbos/dad-j
 
 ## Example usage
 
-- name: Use joke action
-      uses: anjomro/joke-action@v3
-      id: joke
-      with:
-        project_name: 'Joke Action'
-    - name: Save another joke
-      run: echo -e "Current Joke is as following... \n\n\n ${{ steps.joke.outputs.joke }}" > joke.txt
+      - name: Use joke action
+            uses: anjomro/joke-action@v3
+            id: joke
+            with:
+              project_name: 'Joke Action'
+          - name: Save another joke
+            run: echo -e "Current Joke is as following... \n\n\n ${{ steps.joke.outputs.joke }}" > joke.txt
