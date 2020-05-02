@@ -1,4 +1,6 @@
 Current Joke is as following... 
 
 
- **Q:** Where do developers drink?
+ **Q:** Why did the web developer always go to the wrong hotel room?
+
+**A:** They were in room 301.
