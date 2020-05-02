@@ -21,7 +21,7 @@ jobs:
       with:
         project_name: 'Joke Action'
     - name: Save another joke
-      run: echo -e "Current Joke: \n\n ${{ steps.joke.outputs.joke }}" > joke.txt
+      run: echo -e "Current Joke is as following... \n\n\n ${{ steps.joke.outputs.joke }}" > joke.txt
     - name: Commit and Push new Joke
       uses: stefanzweifel/git-auto-commit-action@v4.1.2
       with:
