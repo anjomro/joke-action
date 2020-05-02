@@ -16,7 +16,7 @@ jobs:
     # Checks-out the repo, so your job can access it
     - uses: actions/checkout@v2
     - name: Use joke action
-      uses: ./ # Uses the joke action in the root directory
+      uses: anjomro/joke-action@v1
       id: joke
       with:
         project_name: 'Joke Action'
