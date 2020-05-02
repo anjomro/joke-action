@@ -1,6 +1,6 @@
 Current Joke is as following... 
 
 
- **Q:** Why did the web developer always go to the wrong hotel room?
+ **Q:** Why couldn’t the user update a file on a shared server?
 
-**A:** They were in room 301.
+**A:** They didn’t have the write permissions
