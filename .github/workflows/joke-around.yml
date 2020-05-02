@@ -1,0 +1,33 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Joke Around
+
+#What triggers the action? -> Start when someone watches the repo.
+on:
+  watch:
+    types: [started]
+
+jobs:
+  get-new-joke:
+    # Action will run on Ubuntu
+    runs-on: ubuntu-latest
+    # Steps represent a sequence of tasks that will beof the job executed as part 
+    steps:
+    # Checks-out the repo, so your job can access it
+    - uses: actions/checkout@v2
+    - name: Use joke action
+        uses: ./ # Uses the joke action in the root directory
+        id: joke
+        with:
+          project_name: 'Joke Action'
+      - name: Save another joke
+        run: echo "The time was ${{ steps.joke.outputs.joke }}" > joke.txt
+      - name: Commit and Push new Joke
+      uses: stefanzweifel/git-auto-commit-action@v4.1.2
+      with:
+        commit_message: Update Joke
+        branch: master
+        repository: .
+        commit_user_name: anjomro
+        commit_user_email: github@anjomro.de
+        commit_author: anjomro <github@anjomro.de>
