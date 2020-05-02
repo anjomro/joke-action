@@ -1,0 +1,16 @@
+# action.yml
+name: 'Lighten the mood'
+description: 'Tell a joke'
+inputs:
+  project_name:  # id of input
+    description: 'Which project needs to be made funnier?'
+    required: true
+    default: 'you'
+outputs:
+  joke: # id of output
+    description: 'a funny joke'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.project_name }}
