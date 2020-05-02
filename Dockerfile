@@ -6,7 +6,9 @@ WORKDIR /action-example/
 COPY entry.py entry.sh Pipfile Pipfile.lock /action-example/
 
 RUN pip install pipenv && \
+    cd /action-example/ && \
     pipenv install && \
+    pipenv run pip list && \
     chmod +x /action-example/entry.sh
 # Code file to execute when the docker container starts up (`entrypoi`)
 ENTRYPOINT ["/action-example/entry.sh"]
