@@ -1,6 +1,6 @@
 Current Joke is as following... 
 
 
- **Q:** Why do all HTML emails get blocked?
+ **Q:** Why was the developer unhappy at their job?
 
-**A:** Because they are all .
+**A:** They wanted arrays.
