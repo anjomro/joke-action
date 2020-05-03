@@ -25,9 +25,9 @@ jobs:
     - name: Commit and Push new Joke
       uses: stefanzweifel/git-auto-commit-action@v4.1.2
       with:
-        commit_message: Update Joke
+        commit_message: Joke updated by ${{github.actor}}
         branch: master
         repository: .
-        commit_user_name: anjomro
-        commit_user_email: github@anjomro.de
-        commit_author: anjomro <github@anjomro.de>
+        commit_user_name: ${{github.actor}}
+        commit_user_email: gh-workflow@anjomro.de
+        commit_author: ${{github.actor}} <gh-workflow@anjomro.de>
