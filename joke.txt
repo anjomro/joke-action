@@ -1,6 +1,6 @@
 Current Joke is as following... 
 
 
- **Q:** Why did the functions stop calling each other?
+ **Q:** What's a compiler developer's favorite spice?
 
-**A:** Because they had constant arguments.
+**A:** Parsley.
