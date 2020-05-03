@@ -1,5 +1,5 @@
 # Joke Action
-![](https://github.com/anjomro/joke-action/workflows/Joke%20Around/badge.svg)
+[![Joke Action](https://github.com/anjomro/joke-action/workflows/Joke%20Around/badge.svg)](https://github.com/anjomro/joke-action/actions)
 
 This is an example for a GitHub Action. It prints one nice joke to the log and outputs one that can be used later.
 
