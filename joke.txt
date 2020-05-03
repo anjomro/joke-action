@@ -1,6 +1,6 @@
 Current Joke is as following... 
 
 
- **Q:** Why was the developer unhappy at their job?
+ **Q:** An Agent died unexpectedly. How was the crime solved?
 
-**A:** They wanted arrays.
+**A:** By looking at the Stack Trace.
