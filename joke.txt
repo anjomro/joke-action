@@ -1,6 +1,6 @@
 Current Joke is as following... 
 
 
- **Q:** Why couldn’t the user update a file on a shared server?
+ **Q:** Why do all HTML emails get blocked?
 
-**A:** They didn’t have the write permissions
+**A:** Because they are all .
