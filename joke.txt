@@ -1,6 +1,6 @@
 Current Joke is as following... 
 
 
- **Q:** An Agent died unexpectedly. How was the crime solved?
+ **Q:** Why did the functions stop calling each other?
 
-**A:** By looking at the Stack Trace.
+**A:** Because they had constant arguments.
