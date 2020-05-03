@@ -5,7 +5,8 @@ import random
 import sys
 
 
-joke = random.choice(get_wesbos_dad_jokes())
+joke:str = random.choice(get_wesbos_dad_jokes())
+joke = joke.replace('"', "'")
 if len(sys.argv) > 1:
     click.echo(cow.milk_random_cow(joke))
 else:
