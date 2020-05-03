@@ -1,6 +1,6 @@
 Current Joke is as following... 
 
 
- **Q:** What's a compiler developer's favorite spice?
+ **Q:** Why did the developer go broke?
 
-**A:** Parsley.
+**A:** Because they used up all their cache
