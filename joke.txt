@@ -1,4 +1,6 @@
 Current Joke is as following... 
 
 
- 
+ **Q:** What do you call optimistic front-end developers?
+
+**A:** Stack half-full developers.
