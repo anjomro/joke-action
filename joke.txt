@@ -1,6 +1,4 @@
 Current Joke is as following... 
 
 
- **Q:** How did pirates collaborate before computers ?
-
-**A:** Pier to pier networking.
+ 
