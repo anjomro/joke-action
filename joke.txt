@@ -1,6 +1,6 @@
 Current Joke is as following... 
 
 
- **Q:** What do you call optimistic front-end developers?
+ **Q:** Why do developers mixup Terminals and Polygraphs?
 
-**A:** Stack half-full developers.
+**A:** Because they both can see a lie (CLI)
