@@ -1,6 +1,6 @@
 Current Joke is as following... 
 
 
- **Q:** Why do developers mixup Terminals and Polygraphs?
+ **Q**: What are clouds made of?
 
-**A:** Because they both can see a lie (CLI)
+**A**: Mostly linux servers.
