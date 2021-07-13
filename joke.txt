@@ -1,6 +1,6 @@
 Current Joke is as following... 
 
 
- **Q**: What are clouds made of?
+ **Q:** What do you call an idle server?
 
-**A**: Mostly linux servers.
+**A:** A waiter.
